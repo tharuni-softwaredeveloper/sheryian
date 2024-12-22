@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+
+        {% endblock title %}
+    </title>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    {% block link %}
+    {% endblock link %}
+    {% block style %}
+    {% endblock style %}
+</head>
+
+<body>
+    <div id="cont1">
+        <nav id="navbar">
+            <div id="left">
+                <img src="" alt="">
+                <h1 style="color:aliceblue; font-size: 25px;margin-bottom: 20px;">🦁Sheryians coding school</h1>
+            </div>
+            <div id="right">
+                <ul >
+                    <li><a href="{% url 'Home:home' %}">Home</a></li>
+                    <li><a href="{% url 'Course:course' %}">Course</a></li>
+                    <li><a href="{% url 'Bootcamp:bootcamp' %}"> Bootcamp</a></li>
+                    <li><a href="{% url 'Callback:callback' %}">Callback</a></li>
+                    <li><a href="{% url 'Signin:signin' %}"><button
+                                style="background-color: rgb(11,212,152); width: 90px;height: 40px;font-size: 25
+                                px;font-family: 'Times New Roman', Times, serif; border-radius: 5px;color: white;margin-bottom:35px">Signin</button></a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br><br><br><br>
+
+
+        {% block content %}
+        {% endblock content %}
+
+
+        {% block button %}
+        {% endblock button %}
+
+    </div>
+
+
+</body>
+
+</html>

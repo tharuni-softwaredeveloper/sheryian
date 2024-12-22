@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'home.css' %}">
+{% endblock link %}
+
+{% block content %}
+<div id="div1">
+    <br><br>
+    <h1 id="pre1">we only <span>teach</span><br>
+        what we are really <br>
+        really good at.</h1>
+</div>
+<div id="div2">
+    <pre id="pre2">
+    get ready to <span>accelerate your</span>
+    <span>career </span>with customised courses
+    and leave your mark in the tech
+    industry</pre>
+</div>
+{% endblock content %}
+
+
+{% block button %}
+<a href="{% url 'Course:course' %}" id="a1"><button id="b1" style="border: none;height: 50px;padding-left: 50px;padding-right: 50px;margin-left: 500px;margin-top: 20px;
+    background-color: rgb(53, 220, 164); font-size: 20px; color: black; border-radius: 6px; text-align: center;">
+        check-courses make an
+        impact </button></a>
+
+<br><br><br><br><br><br><br><br>
+<div
+    style="color: aliceblue;width: 160px;margin-left: 400px;text-align: center;font-size: 30px;font-weight: bold; float: left;">
+    25k+
+    <h1 style="font-size: 20px;">Students taught</h1>
+</div>
+<div
+    style="color: aliceblue;width: 160px;margin-left: 150px;text-align: center;font-size: 30px;font-weight: bold;float:left;">
+    20k+
+    <h1 style="font-size: 20px;">Instructors</h1>
+</div>
+<div style="color: aliceblue;width: 160px;margin-left: 1030px;text-align: center;font-size: 30px;font-weight: bold;">
+    451k+
+    <h1 style="font-size: 20px;">Youtube Subs.</h1>
+</div>
+
+<br><br><br><br><br><br><br><br><br>
+
+<pre style="font-size: 50px; color: aliceblue; text-align: center;">we do whatever it takes to help you 
+    <span style="color: rgb(22, 225, 158);">understand the concepts</span></pre>
+
+<br><br><br><br>
+<div style="margin-left: 330px;">
+    <iframe width="860" height="515" src="https://www.youtube.com/embed/60SRAWmMXyc?si=gPmxH3grDEDsUHlO&amp;controls=0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br><br><br>
+<button
+    style="width:fit-content;  height: 50px;   margin-left: 600px;background-color: rgb(25, 219, 154);color: black;border: none;border-radius: 5px;font-size: 30px; padding-left: 30px;padding-right: 30px;">Explore
+    free learing
+</button>
+
+<br><br><br><br><br><br><br>
+<h1 style="color: white;font-size: 50px;">Courses offered</h1>
+<div style="float: left;">
+    <iframe
+        src="https://www.sheryians.com/courses/courses-details/Front-End%20Domination:%20Create%20Anything%20with%20Code"
+        frameborder="0"></iframe>
+</div>
+<div style="float: left;">
+    <iframe
+        src="https://www.sheryians.com/courses/courses-details/Back-End%20Domination:%20Create%20Efficient%20Back-End."
+        frameborder="0"></iframe>
+</div>
+<div style="float: left;">
+    <iframe src="https://www.sheryians.com/courses/courses-details/Aptitude%20&%20Reasoning%20for%20Campus%20Placements"
+        frameborder="0"></iframe>
+</div>
+<div style="float: left;">
+    <iframe src="https://www.sheryians.com/courses/courses-details/Java%20&%20DSA%20Domination"
+        frameborder="0"></iframe>
+</div>
+<div>
+    <iframe src="https://www.sheryians.com/courses/courses-details/Three.js%20Domination" frameborder="0"></iframe>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<h1 style="font-size:60px;color: aliceblue; text-align: center;">Top <span
+        style="color: rgb(12, 178, 128);">companies</span> our students
+    <br>working with
+    <br>
+
+</h1>
+<img src="../static/assests/companies_CcvVE6pUo (1).webp" style="width:1200px;margin-left:200px;">
+
+
+{% endblock button %}

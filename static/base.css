@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#cont1 {
+    width: 100vw;
+
+    background-image: linear-gradient(black, rgb(3, 23, 17));
+}
+
+#left {
+    padding-left: 20px;
+    padding-top: 15px;
+    float: left;
+}
+
+/* #right {
+   
+    padding-left: 20px;
+    float: left;
+} */
+
+li {
+    float: left;
+    padding-top: 40px;
+}
+
+a {
+    font-size: 25px;
+    margin-left: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}

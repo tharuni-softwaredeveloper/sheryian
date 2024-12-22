@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Callback
+{% endblock title %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'callback.css' %}">
+{% endblock link %}
+
+{% block content %}
+<div id="div1">
+    <form action="">
+        <h1 id="h1">Request a callback</h1>
+        <br>
+        <h3 id="h3">
+            Fill the form below to request a callback from
+            <br>
+            our team.
+        </h3>
+        <br>
+        <br>
+        <label for="" id="label" class="lab">Name</label>
+        <br>
+        <br>
+        <input type="text" placeholder="Name" id="input1" class="lab">
+        <br><br>
+        <label for="" id="label1" class="lab1">Phone</label>
+        <br>
+        <input type="number" placeholder="Phone" id="input2" class="lab1">
+        <br><br>
+        <label for="" id="label2" class="lab2">Select Date and Time</label>
+        <br>
+        <input type="datetime-local" style="color: aliceblue;" id="input3" class="lab2">
+        <br><br>
+        <input type="submit" id="submit">
+
+    </form>
+</div>
+{% endblock content %}

@@ -1,0 +1,109 @@
+#division_1 {
+
+    height: 400px;
+    background-color: black;
+}
+
+#h1 {
+    margin-left: 60px;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+
+    color: rgb(19, 199, 157);
+}
+
+#p1 {
+    margin-left: 60px;
+    font-size: 35px;
+    color: white;
+}
+
+#division_2 {
+
+    height: 900px;
+    background-color: rgb(6, 5, 6);
+}
+
+.cd {
+    float: left;
+    margin-left: 30px;
+    width: 30%;
+    height: 600px;
+    background-color: rgb(39, 37, 37);
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons {
+    width: 463px;
+    background-color: rgb(11, 173, 119);
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+
+#d1 {
+    background-image: url(../static/assests/frontend.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#d2 {
+    background-image: url(../static/assests/backend.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#d3 {
+    background-image: url(../static/assests/dsa.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#division_3 {
+
+    height: 900px;
+    background-color: rgb(6, 5, 6);
+}
+
+#d4 {
+    background-image: url(../static/assests/js.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#d5 {
+    background-image: url(../static/assests/apti.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.d1h1 {
+    margin-top: 300px;
+    color: white;
+}
+
+.p1 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin: 2px;
+    /* background-color: antiquewhite; */
+}
+
+.h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.span {
+    font-size: 20px;
+}

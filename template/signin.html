@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Signin
+{% endblock title %}
+
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'sign in.css' %}">
+{% endblock link %}
+<br><br>
+
+{% block content %}
+<form action="">
+    <div style="width: 500px; color: aliceblue;height: 500px;background-color: rgb(24, 23, 24);margin-left: 500px;">
+        <h1 style="padding: 15px">Sign In</h1>
+        <br>
+        <div style="text-align:left;">
+            <a href="" style="text-decoration: underline;padding: 15px;margin: 0px;">Phone</a>
+            <a href="" style="padding: 15px;margin: 0px;">Email</a>
+        </div>
+        <br><br><br>
+        <label for="" style="font-size: 18px;margin: 10px;">Mobile Number *</label>
+        <br><br>
+        <input type="number" placeholder="Enter Your Mobile Number "
+            style="width: 450px; height: 30px;margin: 10px;background-color: rgba(75, 71, 71, 0.913);font-size: 15px;">
+        <h1 style="color: rgb(70, 68, 68);font-size: 20px;">
+            Or
+        </h1>
+        <br><br>
+        <input type="button " placeholder="🪟Continue with Google"
+            style="width: 350px;height: 40px;border:1px solid gray;border-radius: 25px;margin-left: 75px;text-align: center;font-size: 20px;padding-left: 5px;padding-right: 5px;color: aliceblue;background-color:transparent;">
+
+
+        <br><br>
+        <input type="button " placeholder="🕵️‍♂️Create a New Account"
+            style="width: 350px;height: 40px;border:1px solid gray;border-radius: 25px;margin-left: 75px;text-align: center;font-size: 20px;padding-left: 5px;padding-right: 5px;color: aliceblue;background-color:transparent;">
+        <form action="">
+
+
+
+    </div>
+</form>
+
+{% endblock content %}

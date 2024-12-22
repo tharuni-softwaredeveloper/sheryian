@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block title %}
+Bootcamp
+{% endblock title %}
+
+{% block link %}
+<link rel="stylesheet" href="{%  static 'bootcamp.css' %}">
+
+{% endblock link %}
+
+
+
+{% block style %}
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    img {
+        width: 25px;
+    }
+
+    .o_para {
+        width: fit-content;
+        font-size: 55px;
+        color: white;
+        background-color: rgb(45, 40, 40);
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding: 0px 30px 0px 30px;
+        border: none;
+        border-radius: 40px;
+
+    }
+
+    #heading_2 {
+        font-size: 200px;
+        font-weight: bold;
+        color: white;
+        margin-left: 20px;
+    }
+
+    details {
+        font-size: 40px;
+        color: white;
+    }
+</style>
+{% endblock style %}
+
+
+
+
+
+{% block content %}
+<div id="container1" style="height: 5000px;">
+    <div id="div1">
+        <h1 id="h1">6 months In-House <br> Bootcamp programme-
+            <br>Kodr.
+        </h1>
+        <span class="p1">Starts on:11 Nov 2024</span>
+        <span class="p1">Placement Assistance☑️</span><br><br>
+        <pre id="pre1">Price <span id="s1">₹ 59000</span><span id="s2">[50000+18%Gst]</span></pre> <br><br>
+
+        <button id="button">Seats are full</button>
+
+    </div>
+
+
+    <div id="div2">
+        <iframe id="iframe" width="750" height="470px"
+            src="https://www.youtube.com/embed/pOGLAlGCKFE?si=YB9YrmB1JmNBNGED" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+    <h1 style="color: white;font-size: 130px;margin-left: 20px;" id="outer_division_heading">we believe in , <br>
+        <span id="o_span" style="color: rgb(15, 187, 130);">Consistency.</span>No shortcuts
+    </h1>
+    <p class="o_para">MERN Stack <img src="../static/assests/thunder.webp" alt=""></p>
+    <p class="o_para">Data Structure & Algorithm <img src="../static/assests/face.webp" alt=""></p>
+    <p class="o_para">DBMS-SQL<img src="../static/assests/swag.webp" alt=""></DBMS-SQL></p>
+    <p class="o_para">CORE CS Subjects <img src="../static/assests/core.webp" alt=""></p>
+    <p class="o_para">Placement Assistance <img src="../static/assests/money.webp" alt=""></p>
+    <br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h1 id="heading_2">
+        Non-stop <br>
+        <span style="color: rgb(15, 218, 150);">5 Hours </span> <br>
+        Coding <span style="font-size:30px;">[Everyday]</span>
+    </h1>
+    <br><br><br>
+    <pre style="font-size: 50px;color: white;margin-left: 20px;">Monday to Saturday 11:00AM to 4:00AM </pre>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <p style="font-size: 300px;color: white;">
+        Dominate.
+        <!-- <br> -->
+    <p style="font-size: 150px;color: gray;">From Start To Victory</p>
+    </p>
+    <h1 style="width: 100%;height: 1px;background-color: gray;"></h1>
+    <br>
+    <h1 style="color: white;">HTML/CSS
+        <details>
+            <summary>Expand</summary>
+            <p>HTML <br>
+                SEMANTIC HTML <br>
+                FORMS AND VALIDATION <br>
+                MULTIMEDIA ELEMENTS <br>
+                CSS FUNDAMENTALS <br>
+                CSS BOX MODELS <br>
+                FLEXBOX <br>
+                GRID LAYOUT <br>
+                CSS ANIMATIONS <br>
+                TRANSITIONS <br>
+                KEYfRAME ANIMATIONS <br>
+                RESPONSIVE DESIGN <br>
+                MEDIA QUERIES <br>
+                CSS VARIABLES <br>
+                CSS FRAMEWORKS <br>
+            </p>
+        </details>
+    </h1>
+</div>
+
+{% endblock content %}
